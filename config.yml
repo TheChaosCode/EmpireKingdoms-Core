@@ -1,0 +1,64 @@
+kingdoms: 
+- one
+- two
+kingdomblocks:
+  one: wool:1
+  two: wool:2
+build_cost: 50
+break_cost: 30
+use_cost: 10
+use_materials:
+- chest
+- wood_door
+scoreboard:
+  title: '&c Informatie '
+  board:
+  - '&7Kingdom'
+  - '&f%kingdomName%'
+  - '    '
+  - '&7Rank'
+  - '&f%rank%'
+  - ' '
+  - '&7Influence'
+  - '&f%points%'
+  - '  '
+  - '&7Online?'
+  - '&f%online%'
+  - '   '
+  - '&7Locatie'
+  - '&f[%loc%&f]'
+scoreboard_war:
+  title: '&c Oorlog '
+  board:
+  - '&7Duur'
+  - '&f%duur%'
+  - ' '
+  - '&fDeelnemers: &f%deelnemers%'
+  - '&fGesneuveld: &f%gesneuveld%'
+  - '   '
+  - '&7Kills'
+  kills: '&f%kingdom%: %kills%'
+colors:
+  one: '&9one'
+  two: '&5two'
+ranks:
+- ridder1
+- ridder2
+- ridder3
+- hertog
+- koning
+head: 3
+rank:
+  ridder1:
+    prefix: '&8[&fRidder &6I&7]'
+  ridder2:
+    prefix: '&8[&fRidder &6II&7]'
+  ridder3:
+    prefix: '&8[&fRidder &6III&7]'
+  hertog:
+    prefix: '&7[2Hertog&7]'
+  koning:
+    prefix: '&7[6Koning&7]'
+messages:
+  kill: '%player_rank% %player_kingdom% %player%&7 is verwond door %killer_rank% %killer_kingdom% %killer%'
+high_rank_command: pex %player% add permission essentials.ban 

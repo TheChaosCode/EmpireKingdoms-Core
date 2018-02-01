@@ -1,0 +1,11 @@
+name: EmpireCore
+version: 1.1
+softdepend: [PlayerPoints, Vault]
+
+main: nl.TheChaosCode.EmpireCore.Main
+
+commands:
+  oorlog:
+  k:
+  kingdom:
+  kspy:
